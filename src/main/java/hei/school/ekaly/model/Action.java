@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.Instant;
 import java.util.UUID;
 @Data
 @AllArgsConstructor
@@ -16,4 +17,5 @@ public class Action {
     private double stockValue;
     private double sellingValue;
     private double providingValue;
+    private Instant actionDate;
 }

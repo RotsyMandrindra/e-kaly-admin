@@ -15,7 +15,6 @@ public class Ingredient {
     private UUID ingredientId;
     private String ingredientName;
     private double unitPrice;
-    private Instant date;
     private UUID quantityId;
     private UUID  actionId;
 }
